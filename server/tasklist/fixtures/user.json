@@ -1,0 +1,56 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$Eq8e8FWLUNJq$TdJO6Kt6/mR4gOrt4+qdEJN/ndwxu9fDjcAC9raI0Rg=",
+    "last_login": "2019-01-29T23:06:57.005Z",
+    "is_superuser": true,
+    "username": "nemanja",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-01-29T23:00:45.451Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$yzQQekhLVN50$v2h4wkOVnKh7zmJHCgG8gcqy2zK7xE53PNehQ7qEb/Q=",
+    "last_login": "2019-01-29T23:08:43.451Z",
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-01-29T23:07:25Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$lEeWs9VEnUig$p8JXAKDEurRAd2nNkt3Qz9UB2RlNI3dXGO/mbI1MptU=",
+    "last_login": "2019-01-29T23:09:16.401Z",
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-01-29T23:07:37.817Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
