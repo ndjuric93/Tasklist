@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, FormControl, Input, Paper, InputLabel} from '@material-ui/core/';
+import { Button, FormControl, Input, Paper, InputLabel } from '@material-ui/core/';
 import withStyles from '@material-ui/core/styles/withStyles';
+import { login } from '../providers/DataProviders'
 
 const styles = theme => ({
     layout: {
@@ -70,6 +71,17 @@ class Login extends React.Component {
                             variant="contained"
                             color="primary"
                             className={classes.submit}
+                            onClick={() => {
+                                login({
+                                    'username': this.state.username,
+                                    'password': this.state.password
+                                }).then(response => {
+                                    if(response.status === 204) {
+                                        this.props.update()
+                                    }
+                                })
+
+                            }}
                         >
                             Sign in
                         </Button>
