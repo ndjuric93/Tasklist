@@ -25,7 +25,7 @@ SECRET_KEY = '22eisn2%x&ws-dyaw2jdg5f1%ajc(0o5*+38)6ywg8@&!ib6me'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['agile-tor-83820.herokuapp.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['agile-tor-83820.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
