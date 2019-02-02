@@ -17,4 +17,5 @@ class LoginViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
         if user is not None:
             if user.is_active:
                 login(request, user)
-        return Response(status=status.HTTP_204_NO_CONTENT)
+                return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_401_UNAUTHORIZED)
